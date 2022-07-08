@@ -13,6 +13,11 @@ const userResolvers = {
     parseValue:  (value) => new Date(value),
     parseLiteral: (ast) => new Date(ast.value)
   }),
+  respostaCustom: {
+    __resolveType(obj, context, info) {
+      return false
+    },
+  },
   Query: {
     users: (root, args, { dataSources }, info) => dataSources
       .usersAPI.getUsers(),
