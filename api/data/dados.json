@@ -43,9 +43,9 @@
       "role": 2
     },
     {
-      "nome": "Teste",
+      "nome": "Teste 1",
       "ativo": true,
-      "email": "teste@teste.com",
+      "email": "teste2@teste.com",
       "role": 2,
       "id": 7
     }
